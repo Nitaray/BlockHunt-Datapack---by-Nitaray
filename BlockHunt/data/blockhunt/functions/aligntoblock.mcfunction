@@ -1,5 +1,3 @@
-
-
 scoreboard players operation @p mx = @p x
 
 scoreboard players operation @p my = @p y
@@ -40,5 +38,5 @@ execute unless score @p mx matches 0 run scoreboard players reset @p isStill
 
 execute if score @p mx matches 0 if score @p my matches 0 if score @p mz matches 0 run scoreboard players add @p isStill 1
 
-execute if score @p isStill matches 30.. run execute align xyz run tp @p ~0.5 ~ ~0.5
+execute if score @p isStill matches 30 run execute align xyz run tp @p ~0.5 ~ ~0.5
 

@@ -2,5 +2,5 @@ execute if entity @e[tag=Choice, distance=..5] run tellraw @p ["",{"text":"Canno
 
 execute unless entity @e[tag=Choice, distance=..5] run fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:red_concrete
 
-execute unless entity @e[tag=Choice, distance=..5] run summon minecraft:armor_stand ~ ~ ~ {Invisible:1, Invulnerable:1 ,Tags:["BlockHunt", "Seeker", "Choice"]}
+execute unless entity @e[tag=Choice, distance=..5] run summon minecraft:armor_stand ~ ~ ~ {Invisible:1, Invulnerable:1 , Tags:["BlockHunt", "Seeker", "Choice"], CustomName: "{\"text\":\"Seeker\"}", CustomNameVisible:1}
 

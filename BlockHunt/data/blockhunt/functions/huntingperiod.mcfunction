@@ -6,9 +6,9 @@ execute if entity @e[type=minecraft:armor_stand, tag=Timerstand, scores={Timer=1
 
 #Apply effects to Seekers
 
-effect give @a[team=Seeker] minecraft:speed 1 1 true
+effect give @a[team=Seeker] minecraft:speed 1 0 true
 
-effect give @a[team=Seeker] minecraft:regeneration 1 5 true
+effect give @a[team=Seeker] minecraft:regeneration 1 4 true
 
 
 
@@ -16,9 +16,13 @@ effect give @a[team=Seeker] minecraft:regeneration 1 5 true
 
 kill @e[type=arrow, nbt={inGround:1b}]
 
+
+
 #Check Hider death
 
 execute at @a[team=Hider] if score @p Death matches 1.. run function blockhunt:converthider
+
+
 
 #End game
 

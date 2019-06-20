@@ -70,6 +70,10 @@ scoreboard objectives add GameState dummy
 
 scoreboard objectives add BlockType dummy
 
+scoreboard objectives add isStill dummy
+
+scoreboard objectives add Death deathCount
+
 scoreboard objectives add mx dummy
 
 scoreboard objectives add my dummy
@@ -119,6 +123,8 @@ gamerule mobGriefing false
 gamerule doTileDrops false
 
 gamerule doWeatherCycle false
+
+gamerule spawnRadius 0
 
 
 

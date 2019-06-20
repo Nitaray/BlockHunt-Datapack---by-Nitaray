@@ -57,3 +57,9 @@ setblock ~ ~14 ~ minecraft:end_gateway
 setblock ~ ~15 ~ minecraft:chest
 
 summon minecraft:armor_stand ~ ~16 ~ {Invisible:1, Invulnerable:1, Tags:["BlockHunt", "BlockChest"]}
+
+
+
+#Force load chunks
+
+forceload add ~-8 ~-8 ~8 ~8

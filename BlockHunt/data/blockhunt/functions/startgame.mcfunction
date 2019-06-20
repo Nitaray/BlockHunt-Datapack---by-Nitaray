@@ -1,4 +1,5 @@
 #Set players gamemode
+
 gamemode adventure @a[team=Seeker]
 
 gamemode adventure @a[team=Hider]
@@ -7,13 +8,17 @@ gamemode spectator @a[team=Spectator]
 
 
 
+#Set gamerule
+
+gamerule naturalRegeneration false
+
+
+
 #Teleport to random map
 
 execute at @e[type=minecraft:armor_stand, tag=Map, sort=random, limit=1] run tp @a[team=!Lobby] ~ ~ ~
 
 execute at @a[team=Seeker] run tp @a[team=Seeker] ~ ~9 ~
-
-execute at @a[team=Hider] run spawnpoint @a
 
 
 

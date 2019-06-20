@@ -10,6 +10,8 @@ effect give @a[team=Hider] minecraft:speed 1 2 true
 
 effect give @a[team=Hider] minecraft:resistance 1 10 true
 
+effect give @a[team=Hider] minecraft:regeneration 1 10 true
+
 effect give @a[team=Seeker] minecraft:invisibility 1 1 true
 
 

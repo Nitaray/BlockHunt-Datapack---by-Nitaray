@@ -18,6 +18,10 @@ scoreboard objectives remove GameState
 
 scoreboard objectives remove BlockType
 
+scoreboard objectives remove isStill
+
+scoreboard objectives remove Death
+
 scoreboard objectives remove mx
 
 scoreboard objectives remove my
